@@ -4,25 +4,21 @@ A simple web scraper API to find Holosun dealers across California zip codes.
 
 ## Getting Started Locally
 
-### Prerequisites
-
-- [Bun](https://bun.sh/) installed on your system
-
 ### Installation & Running
 
 1. Install dependencies:
 
 ```bash
-bun install
+npm install
 ```
 
 2. Start the development server:
 
 ```bash
-bun run dev
+npm run dev
 ```
 
-The server will start on `http://localhost:3000` (default Bun port).
+The server will start on `http://localhost:3000`.
 
 ## API Endpoints
 
