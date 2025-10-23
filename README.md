@@ -2,11 +2,20 @@
 
 A simple web scraper API to find Holosun dealers across California zip codes.
 
+**Screenshot**
+
+> console log
+![Screenshot-1](./public/demo1.png)
+
+>API endpoint:
+![Screenshot-2](./public//demo2.png)
+
 ## Why Bun?
 
 This project uses **Bun** as its JavaScript runtime and toolkit. Bun is an all-in-one JavaScript runtime that's significantly faster than Node.js, with built-in package management, bundling, and testing capabilities.
 
 **Why I chose Bun:**
+
 - **Speed**: Up to 4x faster than Node.js for most operations
 - **Simplified tooling**: Package manager, bundler, and test runner built-in (no need for npm/yarn/webpack separately)
 - **Native TypeScript support**: Run TypeScript files directly without compilation steps
@@ -16,21 +25,25 @@ This project uses **Bun** as its JavaScript runtime and toolkit. Bun is an all-i
 ### Installing Bun
 
 **macOS and Linux:**
+
 ```bash
 curl -fsSL https://bun.sh/install | bash
 ```
 
 **Windows:**
+
 ```powershell
 powershell -c "irm bun.sh/install.ps1 | iex"
 ```
 
 **Using npm (if you already have Node.js):**
+
 ```bash
 npm install -g bun
 ```
 
 **Verify installation:**
+
 ```bash
 bun --version
 ```
@@ -54,6 +67,11 @@ bun run dev
 ```
 
 The server will start on `http://localhost:3000`.
+
+> type this url in your browser to get started, skip is optional as it saves time to run just for a demo purpose
+```bash
+http://localhost:3000/start?skip=100
+```
 
 ## API Endpoints
 
